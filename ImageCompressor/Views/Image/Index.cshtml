@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@using (Html.BeginForm("Compression", "Image",FormMethod.Post,new { @enctype="multipart/form-data"}))
+{
+    <input type="file" id="file" name="file" />
+    <input type="submit" value="Compress" />
+}
+
