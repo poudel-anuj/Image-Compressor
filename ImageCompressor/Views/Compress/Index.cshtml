@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@*@using (Html.BeginForm("Index", "Compress", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    <input type="file" id="file" name="file" />
+    <input type="submit" value="Compress" />
+}*@
+
+<form  method="post" enctype="multipart/form-data" asp-controller="Compress" asp-action="Index">
+
+    <input type="file"  name="file" />
+    <input type="submit" value="Compress" />
+</form>
+
+@*@ if (TempData["msg"]!=null) {
+<script>
+                alert('@TempData["msg"]')
+</script>
+}*@
+
