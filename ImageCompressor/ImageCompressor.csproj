@@ -186,7 +186,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="ImageUpload.cs" />
+    <Compile Include="Models\Box.cs" />
+    <Compile Include="Models\ColorData.cs" />
+    <Compile Include="Models\CubeCut.cs" />
     <Compile Include="Models\ImageResult.cs" />
+    <Compile Include="Models\Lookup.cs" />
+    <Compile Include="Models\Pixel.cs" />
+    <Compile Include="Models\QuantizedPalette.cs" />
+    <Compile Include="Models\WuQuantizer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
